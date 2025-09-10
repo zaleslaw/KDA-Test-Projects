@@ -1,12 +1,7 @@
 
 import org.jetbrains.kotlinx.dataframe.DataFrame
-import org.jetbrains.kotlinx.dataframe.annotations.DataSchema
 import org.jetbrains.kotlinx.dataframe.api.describe
-import org.jetbrains.kotlinx.dataframe.api.select
-import org.jetbrains.kotlinx.dataframe.api.cast
-import org.jetbrains.kotlinx.dataframe.api.sortByDesc
 import org.jetbrains.kotlinx.dataframe.api.print
-import org.jetbrains.kotlinx.dataframe.api.take
 import org.jetbrains.kotlinx.dataframe.examples.jdbc.PASSWORD
 import org.jetbrains.kotlinx.dataframe.examples.jdbc.TABLE_NAME_MOVIES
 import org.jetbrains.kotlinx.dataframe.examples.jdbc.URL
@@ -22,7 +17,7 @@ interface Movies {
     val rank: Float?
 }*/
 
-fun main() {
+fun readTableDbConfig() {
     // define the database configuration
     val dbConfig = DbConnectionConfig(URL, USER_NAME, PASSWORD)
 
@@ -42,3 +37,5 @@ fun main() {
         .select { name }
         .print()*/
 }
+
+fun main() = readTableDbConfig()

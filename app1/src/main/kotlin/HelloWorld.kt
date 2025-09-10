@@ -2,7 +2,7 @@ import org.jetbrains.kotlinx.dataframe.api.dataFrameOf
 import org.jetbrains.kotlinx.dataframe.api.filter
 import org.jetbrains.kotlinx.dataframe.api.sortByDesc
 
-fun main() {
+fun helloWorld() {
     val df = dataFrameOf(
         "name" to listOf("Alice", "Anton", "Bob"),
         "age" to listOf(25, 30, 15)
@@ -13,3 +13,5 @@ fun main() {
 
     println(res)
 }
+
+fun main(): Unit = helloWorld()

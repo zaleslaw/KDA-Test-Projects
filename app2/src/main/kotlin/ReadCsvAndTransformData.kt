@@ -41,7 +41,7 @@ fun getKind(fullName: String, topics: List<String>): RepoKind {
     }
 }
 
-fun main() {
+fun readCsvAndTransformData() {
     val repos = DataFrame
         // Read DataFrame from the CSV file.
         .readCsv("https://raw.githubusercontent.com/Kotlin/dataframe/master/data/jetbrains_repositories.csv")
@@ -90,3 +90,5 @@ fun main() {
     //      }
     //  }
 }
+
+fun main() = readCsvAndTransformData()
