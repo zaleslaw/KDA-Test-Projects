@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation(libs.dataframe)
+    implementation(libs.kandy)
     testImplementation(kotlin("test"))
 }
 

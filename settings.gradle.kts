@@ -7,6 +7,8 @@ dependencyResolutionManagement {
         create("libs") {
             version("df", providers.gradleProperty("dataframeVersion").get())
             library("dataframe", "org.jetbrains.kotlinx", "dataframe").versionRef("df")
+            version("kandy", providers.gradleProperty("kandyVersion").get())
+            library("kandy", "org.jetbrains.kotlinx", "kandy-lets-plot").versionRef("kandy")
         }
     }
 }
@@ -15,3 +17,4 @@ rootProject.name = "KDA-Test-Projects"
 include("app1")
 include("app2")
 include("app3")
+include("app4")
