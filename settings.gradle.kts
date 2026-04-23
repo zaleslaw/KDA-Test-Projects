@@ -14,7 +14,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KDA-Test-Projects"
-include("app1")
-include("app2")
-include("app3")
-include("app4")
+include("files")
+include("compilerPlugin")
+include("database")
+include("geo")

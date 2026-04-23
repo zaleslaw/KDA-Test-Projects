@@ -9,10 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app1" />
-            <option value="$PROJECT_DIR$/app2" />
-            <option value="$PROJECT_DIR$/app3" />
-            <option value="$PROJECT_DIR$/app4" />
+            <option value="$PROJECT_DIR$/compilerPlugin" />
+            <option value="$PROJECT_DIR$/database" />
+            <option value="$PROJECT_DIR$/files" />
+            <option value="$PROJECT_DIR$/geo" />
           </set>
         </option>
       </GradleProjectSettings>
