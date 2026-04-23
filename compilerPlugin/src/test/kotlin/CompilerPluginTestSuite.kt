@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test
 
-class App2TestSuite {
+class CompilerPluginTestSuite {
     @Test
     fun readCsvAndTransformDataTest() {
         readCsvAndTransformData()

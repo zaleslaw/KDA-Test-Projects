@@ -81,14 +81,6 @@ fun readCsvAndTransformData() {
 
     // Write the updated DataFrame to a CSV file.
     reposUpdated.writeCsv("jetbrains_repositories_new.csv")
-
-    // TODO: Add Kandy Plot
-    //  reposUpdated.groupBy { kind }.max { stargazersCount  }.plot {
-    //      bars {
-    //          x(kind)
-    //          y(stargazersCount)
-    //      }
-    //  }
 }
 
 fun main() = readCsvAndTransformData()

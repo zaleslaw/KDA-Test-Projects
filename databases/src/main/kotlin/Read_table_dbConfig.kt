@@ -17,7 +17,7 @@ interface Movies {
     val rank: Float?
 }*/
 
-fun readTableDbConfig() {
+fun readTableFromMariaDB() {
     // define the database configuration
     val dbConfig = DbConnectionConfig(URL, USER_NAME, PASSWORD)
 
@@ -38,4 +38,4 @@ fun readTableDbConfig() {
         .print()*/
 }
 
-fun main() = readTableDbConfig()
+fun main() = readTableFromMariaDB()

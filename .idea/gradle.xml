@@ -10,9 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/compilerPlugin" />
-            <option value="$PROJECT_DIR$/database" />
+            <option value="$PROJECT_DIR$/databases" />
             <option value="$PROJECT_DIR$/files" />
             <option value="$PROJECT_DIR$/geo" />
+            <option value="$PROJECT_DIR$/kandy" />
           </set>
         </option>
       </GradleProjectSettings>
