@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/files" />
             <option value="$PROJECT_DIR$/geo" />
             <option value="$PROJECT_DIR$/kandy" />
+            <option value="$PROJECT_DIR$/swing" />
           </set>
         </option>
       </GradleProjectSettings>
