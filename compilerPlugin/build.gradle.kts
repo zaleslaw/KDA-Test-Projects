@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm")
-    kotlin("plugin.dataframe") version "2.3.20"
+    kotlin("plugin.dataframe")
 }
 
 group = "com.zaleslaw"
